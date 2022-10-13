@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/rectangle"
+                    />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/ic_home"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="80dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/title"
+                    style="@style/title_app" />
+
+                <TextView
+                    android:layout_width="141dp"
+                    android:layout_height="29dp"
+                    android:gravity="center_vertical"
+                    android:text="Welcome!"
+                    style="@style/user"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="80dp"/>
+
+                <Button
+                    android:id="@+id/btn_to_list_penginapan"
+                    android:layout_width="150dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginRight="225dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="@color/blue"
+                    android:text="@string/list_penginapan"
+                    />
+
+                <Button
+                    android:id="@+id/btn_to_list_kuliner"
+                    android:layout_width="150dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="@color/blue"
+                    android:text="@string/list_kuliner"
+                    />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/rectangle_3"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/img_1"
+                        android:layout_margin="15dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:text="@string/desc_app"
+                        style="@style/deskripsi_app"/>
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                tools:listitem="@layout/row_item" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

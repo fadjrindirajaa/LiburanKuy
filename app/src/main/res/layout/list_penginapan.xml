@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.ListPenginapan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="211dp">
+
+            <ImageView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/rectangle"
+                />
+
+            <TextView
+                android:id="@+id/liburankuy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:paddingBottom="147dp"
+                android:paddingLeft="110dp"
+                android:paddingTop="5dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:text="@string/title"
+                android:fontFamily="@font/arbutusslab_regular"
+                />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="50dp"
+                app:srcCompat="@drawable/ic_bungalow"
+                />
+
+            <TextView
+                android:id="@+id/list_kuliner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="130dp"
+                android:textColor="@color/white"
+                android:text="List Penginapan"
+                android:fontFamily="@font/arbutusslab_regular"
+                />
+
+        </FrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_listpenginapan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            tools:listitem="@layout/row_item"/>
+
+    </LinearLayout>
+</ScrollView>

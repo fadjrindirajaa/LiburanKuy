@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">LiburanKuy!</string>
+    <string name="title">LiburanKuy!</string>
+    <string name="desc_app">LiburanKuy! merupakan platform digital panduan perjalanan wisata untuk Anda yang ingin melakukan perjalanan wisata di Kabupaten Bandung Barat. Kuuyy!</string>
+    <string name="nama_tempat">Nama Tempat</string>
+    <string name="lokasi_tempat">Lokasi Tempat</string>
+    <string name="pilih">Pilih</string>
+
+    <string name="detail_wisata">Detail Wisata</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="htm">Harga:</string>
+    <string name="jam_buka">Jam Operasional:</string>
+
+    <string name="rekomendasi_penginapan">Rekomendasi Penginapan</string>
+    <string name="keterangan_jarak">km dari tempat wisata</string>
+    <string name="detail_penginapan">Detail Penginapan</string>
+    <string name="fasilitas">Fasilitas:</string>
+
+    <string name="rekomendasi_kuliner">Rekomendasi Kuliner</string>
+    <string name="detail_kuliner">Detail Kuliner</string>
+    <string name="lihat_menu">Lihat Menu</string>
+
+    <string name="list_wisata_title">List Wisata</string>
+    <string name="list_perjalananku">List Perjalananku</string>
+    <string name="list_penginapan">List Penginapan</string>
+    <string name="list_kuliner">List Kuliner</string>
+
+    <string name="detail_perjalananku">Detail Perjalananku</string>
+    <!--    <string name="alamat_penginapan">Alamat penginapan</string>-->
+
+
+    <string name="next">Next</string>
+    <string name="add_to_list">add to list</string>
+    <string name="finish">Finish</string>
+
+    <string name="favorit">Favorite</string>
+    <string name="pilihwisata">Pilih Wisata</string>
+    <!--    <string-array name="wisata">-->
+
+    <!--        <item>Puncak Eurad Pingping</item>-->
+    <!--        <item>Sungai Cikahuripan</item>-->
+    <!--        <item>Tebing Keraton</item>-->
+    <!--        <item>Puncak Rindu</item>-->
+
+    <!--    </string-array>-->
+    <string name="title_activity_sidebar">Sidebar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="nama_tempat_wisata">Nama Tempat Wisata</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+</resources>
