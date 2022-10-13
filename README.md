@@ -1,5 +1,5 @@
 # LiburanKuy
-This project is an Android-based tourist information system application in West Bandung that I built with my colleagues on campus, namely:
+This project is an Android-based tourist information system application in West Bandung, Indonesia that I built with my colleagues on campus, namely:
 1. Fadlul Aufar
 2. Fadjrin Diraja Muhammad
 3. Rachma Alifia
